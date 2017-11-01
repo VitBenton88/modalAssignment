@@ -1,0 +1,56 @@
+body {
+	width: 960px;
+	margin: auto;
+}
+
+#wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+/* nav bar*/
+nav {
+	width: 100%;
+	height: 40px;
+	background-color: #D3D3D3;
+	margin: auto;
+	padding: 0px 10px 0px 10px;
+}
+
+/* section containing all product content*/
+section {
+	width: 100%;
+	margin: auto;
+	padding: 10px 10px 10px 10px;
+}
+
+/* section containing title, subtitle, price, description, and modal button*/
+#infoPanel {
+	float: right;
+	text-align: left;
+	width: 350px;
+}
+
+#subtitle {
+	color: #D3D3D3;
+}
+
+#description {
+	margin-bottom: 30px;
+}  
+
+/* button for launching modal*/
+#modalLaunch {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	box-shadow: gray 0px 3px 2px -2px;
+	background: -webkit-linear-gradient(top, rgb(255, 226, 81), rgb(255, 192, 0));
+	padding: 12px 36px 10px;
+}
+
+/* main product image*/
+img {
+	float: left;
+	margin-top: 100px;
+}
