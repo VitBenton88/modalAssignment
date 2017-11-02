@@ -138,8 +138,10 @@ section {
 /* table in modal displaying instructions */
 
 #modalLogo {
-    width: 30px;
+    width: 100px;
     height: auto;
+    -webkit-filter: invert(1);
+   filter: invert(1);
 }
 
 .modal-table {
