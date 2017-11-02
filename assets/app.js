@@ -7,7 +7,7 @@ $(document).ready(function() {
             var modalOpenBtn = $("#modalOpenBtn");
 
             // assign the button that opens the modal
-            var modalCloseBtn = $(".close");
+            var modalCloseBtn = $("#modalCloseBtn");
 
             // When the user clicks on the open button, open the modal 
             modalOpenBtn.click(function(){

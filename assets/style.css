@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5 {
 	font-family: Gotham-Bold, "Sans-serif";
 }
 
+b {
+	font-family: Gotham-Bold, "Sans-serif";
+}
+
 body {
 	width: 960px;
 	margin: auto;
@@ -61,25 +65,10 @@ section {
 
 #description {
 	margin-bottom: 30px;
-}  
-
-/* button for launching modal*/
-#modalOpenBtn {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: black;
-	box-shadow: gray 0px 3px 2px -2px;
-	background: -webkit-linear-gradient(top, rgb(255, 226, 81), rgb(255, 192, 0));
-	padding: 12px 36px 10px;
-}
-
-#modalOpenBtn:hover {
-	background: -webkit-linear-gradient(top, rgb(249, 232, 144), rgb(255, 192, 0));
-
-}
+} 
 
 /* main product image*/
-img {
+#jerseyImg {
 	float: left;
 	margin-top: 100px;
 }
@@ -96,29 +85,37 @@ img {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+    font-size: 14px;
 }
 
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
-    border: 1px solid #888;
-    width: 350px;
-    height: 350px;
-
+    width: 400px;
+    height: 380px;
 }
 /* Modal Header */
 .modal-header {
 	background-color: black;
 	width: 100%;
-	height: 30px;
+	padding: 25px 0px 25px 0px;
 	text-align: center;
 	color: white;
 }
 
+/* table in modl displaying instructions */
+.modal-table {
+	margin: 20px auto;
+	padding: 10px;
+}
 
-/* The Close Button */
+.modal-table td {
+	padding: 10px;
+}
+
+/* The Close Modal Button */
 .close {
     color: #aaa;
     float: right;
@@ -131,4 +128,41 @@ img {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* ALL BUTTONS STYLING*/
+
+/* MODAL BUTTON WRAP STYLING*/
+#buttonWrap {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* OPEN MODAL & LEAVE TO CUSTOMIZE BUTTON STYLING */
+#modalOpenBtn, #leaveToCustomize {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	box-shadow: gray 0px 3px 2px -2px;
+	background: -webkit-linear-gradient(top, rgb(255, 226, 81), rgb(255, 192, 0));
+	padding: 12px 36px 10px;
+}
+
+#modalOpenBtn:hover, #leaveToCustomize:hover {
+	background: -webkit-linear-gradient(top, rgb(249, 232, 144), rgb(255, 192, 0));
+
+}
+
+/* STAY IN SITE (CLOSE MODAL) BUTTON STYLING */
+#modalCloseBtn {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	box-shadow: gray 0px 3px 2px -2px;
+	background: -webkit-linear-gradient(top, rgb(76, 76, 76), rgb(0, 0, 0));
+	padding: 12px 36px 10px;
+}
+
+#modalCloseBtn:hover {
+	background: -webkit-linear-gradient(top, rgb(99, 99, 99), rgb(0, 0, 0));
 }
