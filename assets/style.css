@@ -148,6 +148,10 @@ section {
 	padding: 12px 36px 10px;
 }
 
+#leaveToCustomize {
+	margin-right: 15px;
+}
+
 #modalOpenBtn:hover, #leaveToCustomize:hover {
 	background: -webkit-linear-gradient(top, rgb(249, 232, 144), rgb(255, 192, 0));
 
