@@ -135,7 +135,12 @@ section {
 }
 
 
-/* table in modl displaying instructions */
+/* table in modal displaying instructions */
+
+#modalLogo {
+    width: 30px;
+    height: auto;
+}
 
 .modal-table {
     margin: 20px auto;
@@ -144,6 +149,11 @@ section {
 
 .modal-table td {
     padding: 10px;
+}
+
+.modalIcon {
+    width: 30px;
+    height: auto;
 }
 
 
